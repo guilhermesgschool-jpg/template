@@ -1,6 +1,6 @@
 export const siteConfig = {
-  name: "Template Vinext",
+  name: "Template Vite",
   description:
-    "Starter em vinext com Bun, Tailwind v4, Vitest, shadcn/ui e estrutura limpa para evoluir features com previsibilidade.",
+    "Starter em Vite com Bun, Tailwind v4, Vitest, shadcn/ui e estrutura limpa para evoluir features com previsibilidade.",
   url: "http://localhost:3001",
 };

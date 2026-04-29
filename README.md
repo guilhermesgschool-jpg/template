@@ -1,15 +1,15 @@
-# Template Vinext
+# Template Vite
 
-Starter em `vinext` com `Bun`, `Tailwind CSS v4`, `Vitest`, `shadcn/ui` e estrutura inicial limpa para evoluir produto.
+Starter em `Vite` com `Bun`, `Tailwind CSS v4`, `Vitest`, `shadcn/ui` e estrutura inicial limpa para evoluir produto.
 
 ## Stack
 
-- `vinext` como runtime padrão
-- `next` preservado como fallback de compatibilidade
+- `vite` como runtime e bundler
+- `react` client-side
 - `bun` como package manager
 - `tailwindcss v4`
-- `shadcn/ui` com conjunto amplo de componentes já adicionado
-- `vitest` para testes unitários
+- `shadcn/ui` com conjunto amplo de componentes ja adicionado
+- `vitest` para testes unitarios
 
 ## Scripts
 
@@ -20,25 +20,22 @@ bun run test
 bun run build
 ```
 
-Fallback Next:
+Preview de producao:
 
 ```bash
-bun run dev:next
-bun run build:next
-bun run start:next
+bun run preview
 ```
 
 ## Estrutura
 
 ```text
-app/
+src/
+  App.tsx
+  main.tsx
+  styles.css
 components/
   shared/
   ui/
 lib/
 tests/
 ```
-
-## Observacao
-
-`vinext` ainda e experimental. Este template prioriza velocidade de iteracao e compatibilidade alta, mas nao pressupoe paridade total com `Next.js`.

@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap");
 @import "tailwindcss";
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
@@ -49,6 +50,8 @@
 }
 
 :root {
+  --font-space-grotesk: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-ibm-plex-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, monospace;
   --background: oklch(0.985 0.01 72);
   --foreground: oklch(0.23 0.03 43);
   --card: oklch(1 0.005 72);
@@ -127,7 +130,11 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply min-h-screen bg-background text-foreground;
     font-feature-settings: "rlig" 1, "calt" 1, "ss01" 1;
+  }
+
+  #root {
+    min-height: 100vh;
   }
 }

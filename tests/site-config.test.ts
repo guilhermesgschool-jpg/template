@@ -4,7 +4,7 @@ import { siteConfig } from "../lib/site-config";
 
 describe("siteConfig", () => {
   it("exposes the starter identity", () => {
-    expect(siteConfig.name).toBe("Template Vinext");
+    expect(siteConfig.name).toBe("Template Vite");
     expect(siteConfig.description.length).toBeGreaterThan(40);
   });
 });
